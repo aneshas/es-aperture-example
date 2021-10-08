@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tactical.DDD.Example.Projections", "Tactical.DDD.Example.Projections\Tactical.DDD.Example.Projections.csproj", "{808703D1-1F12-421F-9610-89A47C1BA32B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tactical.DDD.Example.Domain", "Tactical.DDD.Example.Domain\Tactical.DDD.Example.Domain.csproj", "{F988B413-C1D5-4BF8-A42B-2A09C95391B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{808703D1-1F12-421F-9610-89A47C1BA32B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808703D1-1F12-421F-9610-89A47C1BA32B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808703D1-1F12-421F-9610-89A47C1BA32B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808703D1-1F12-421F-9610-89A47C1BA32B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F988B413-C1D5-4BF8-A42B-2A09C95391B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F988B413-C1D5-4BF8-A42B-2A09C95391B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F988B413-C1D5-4BF8-A42B-2A09C95391B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F988B413-C1D5-4BF8-A42B-2A09C95391B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
