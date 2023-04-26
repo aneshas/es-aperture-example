@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-Bank24.ProjectionWorker-92D176EB-BA04-4905-9EDE-D31F479534A1</UserSecretsId>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Aperture.Core" Version="0.3.8" />
+        <PackageReference Include="Aperture.Polly" Version="0.3.6" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+        <PackageReference Include="TacticalDDD" Version="7.0.21" />
+        <PackageReference Include="TacticalDDD.EventSourcing.Postgres" Version="7.0.21" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Bank24.Core\Bank24.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Tactical.DDD.EventSourcing">
+        <HintPath>..\..\tactical-ddd\Tactical.DDD.EventSourcing.Postgres\bin\Debug\net7.0\Tactical.DDD.EventSourcing.dll</HintPath>
+      </Reference>
+      <Reference Include="Tactical.DDD.EventSourcing.Postgres">
+        <HintPath>..\..\tactical-ddd\Tactical.DDD.EventSourcing.Postgres\bin\Release\net7.0\publish\Tactical.DDD.EventSourcing.Postgres.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+</Project>

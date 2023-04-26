@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="12.0.1" />
+      <PackageReference Include="TacticalDDD" Version="7.0.21" />
+      <PackageReference Include="TacticalDDD.EventSourcing" Version="7.0.21" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Query\" />
+    </ItemGroup>
+
+</Project>

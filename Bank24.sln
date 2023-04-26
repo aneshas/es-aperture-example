@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank24.Core", "Bank24.Core\Bank24.Core.csproj", "{DAAEE812-A563-4F18-82AC-B89B07156701}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank24.Api", "Bank24.Api\Bank24.Api.csproj", "{D97851BA-D507-4E18-8F57-E4C823D5711A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank24.ProjectionWorker", "Bank24.ProjectionWorker\Bank24.ProjectionWorker.csproj", "{3CCBF0EA-65DC-4E91-8EE2-E27B4784F39E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAAEE812-A563-4F18-82AC-B89B07156701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAEE812-A563-4F18-82AC-B89B07156701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAEE812-A563-4F18-82AC-B89B07156701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAEE812-A563-4F18-82AC-B89B07156701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97851BA-D507-4E18-8F57-E4C823D5711A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97851BA-D507-4E18-8F57-E4C823D5711A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97851BA-D507-4E18-8F57-E4C823D5711A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97851BA-D507-4E18-8F57-E4C823D5711A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CCBF0EA-65DC-4E91-8EE2-E27B4784F39E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CCBF0EA-65DC-4E91-8EE2-E27B4784F39E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CCBF0EA-65DC-4E91-8EE2-E27B4784F39E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CCBF0EA-65DC-4E91-8EE2-E27B4784F39E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
