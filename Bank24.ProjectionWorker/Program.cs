@@ -12,7 +12,7 @@ IHost host = Host.CreateDefaultBuilder(args)
         services.AddSingleton<IProjectEvents, FooProjection>();
 
         services.AddPostgresAperture(
-            "Host=localhost;Database=your-db;Username=your-username",
+            "Host=localhost;Database=your-db;Username=your-user",
             new PullEventStream.Config
             {
                 PullInterval = TimeSpan.FromMilliseconds(200),

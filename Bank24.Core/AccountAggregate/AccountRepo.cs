@@ -18,6 +18,7 @@ public class AccountRepo : IAccountRepo
             account.Id,
             account.Version,
             account.DomainEvents,
+            // eg. request id, user ip etc ...
             new Dictionary<string, string>());
     }
 }

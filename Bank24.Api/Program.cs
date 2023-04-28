@@ -13,7 +13,7 @@ builder.Services.AddMediatR(cfg =>
 
 builder.Services.AddScoped<IAccountRepo, AccountRepo>();
 
-builder.Services.AddPostgresEventStore("Host=localhost;Database=instahelp;Username=anes.hasicic");
+builder.Services.AddPostgresEventStore("Host=localhost;Database=your-db;Username=your-user");
 
 var app = builder.Build();
 
